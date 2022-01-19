@@ -13,17 +13,13 @@ public class Point3D extends Point2D {
         return z;
     }
 
-    public String getXYZ(){
+    public int[] getXYZ(){
         int[] getXYZArray = new int [3];
         getXYZArray[0]=getX();
         getXYZArray[1]=getY();
         getXYZArray[2]=this.z;
-        for (int i =0 ; i<getXYZArray.length;i++){
-            System.out.println("x = " + getXYZArray[0] + " y = " + getXYZArray[1] + " z = " + getXYZArray[2]);
-            break;
-        }
 
-        return getXYZArray.toString();
+        return getXYZArray;
     }
 
     public void setZ(int z) {

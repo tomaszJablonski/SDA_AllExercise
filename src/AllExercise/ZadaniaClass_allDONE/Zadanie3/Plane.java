@@ -2,7 +2,7 @@ package AllExercise.ZadaniaClass_allDONE.Zadanie3;
 
 public class Plane extends Vehicle{
 
-    private final int maxSpeed = 800;
+
     private int numberOfEngines;
 
 
@@ -14,7 +14,7 @@ public class Plane extends Vehicle{
     @Override
     public String toString() {
         return "Plane{" +
-                "maxSpeed=" + maxSpeed +" actualSpeed " + getActualSpeed() +
+                "maxSpeed=" + super.getMaxSpeed() +" actualSpeed " + getActualSpeed() +
                 ", numberOfEngines=" + numberOfEngines +
                 '}';
     }

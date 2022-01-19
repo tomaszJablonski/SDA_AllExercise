@@ -46,11 +46,12 @@ public class Main {
 
         Point2D point2D = new Point2D(5,15);
         System.out.println("point2D = " + point2D);
-        point2D.getXY();
+
+        System.out.println("=========");
 
         Point3D point3D = new Point3D(112,66,5);
         System.out.println(point3D);
-        point3D.getXYZ();
+
 
 
     }

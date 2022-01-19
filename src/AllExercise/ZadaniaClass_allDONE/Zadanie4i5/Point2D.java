@@ -23,16 +23,11 @@ public class Point2D {
         return y;
     }
 
-    public String getXY(){
+    public int[] getXY(){
         int[] getXYArray = new int [2];
         getXYArray[0]=this.x;
         getXYArray[1]=this.y;
-        for (int i =0 ; i<getXYArray.length;i++){
-            System.out.println("x = " + getXYArray[0] + " y = " + getXYArray[1]);
-            break;
-        }
-
-        return getXYArray.toString();
+        return getXYArray;
     }
 
     public void setX(int x) {

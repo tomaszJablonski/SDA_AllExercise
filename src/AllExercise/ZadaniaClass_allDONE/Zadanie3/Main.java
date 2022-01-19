@@ -27,7 +27,7 @@ public class Main {
 
         Vehicle vehicle = new Car(250,"Oil");
         System.out.println("vehicle = " + vehicle);
-        vehicle.setActualSpeed(250);
+        vehicle.setActualSpeed(50);
 
 
 

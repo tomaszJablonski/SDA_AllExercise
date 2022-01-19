@@ -20,7 +20,7 @@ public class Main {
         animals[2] = dog1;
         animals[3] = dog2;
 
-        //wyświetla ale tylko 1
+
         for(int i=0; i<animals.length;i++){
             System.out.println(animals[i]);
 

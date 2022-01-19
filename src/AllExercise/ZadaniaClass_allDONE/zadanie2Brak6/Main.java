@@ -56,8 +56,6 @@ public class Main {
             choose = scanner.nextLine();
         }
 
-        if(choose.equals("Square") || choose.equals("Rectangle")){
-
             System.out.println("Enter side A");
             double sideA = scanner.nextDouble();
 
@@ -77,24 +75,9 @@ public class Main {
                  double rectangle1 = new Rectangle(sideA,sideB).circumFerence();
                  System.out.println("rectangle circumFerence = " + rectangle1);
 
-
              }
-
-
-
-
 
         }
 
-
-
-
-
-
-
-
-
-
-
     }
-}
+
