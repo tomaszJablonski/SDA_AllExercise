@@ -1,4 +1,4 @@
-package AllExercise.ZadaniaInterfejsy.ZadaniaInterfejsy_Zadanie4_ProblemZpunktem5;
+package AllExercise.ZadaniaInterfejsy.ZadaniaInterfejsy_Zadanie4_Dokończyć;
 
 public interface Order {
 

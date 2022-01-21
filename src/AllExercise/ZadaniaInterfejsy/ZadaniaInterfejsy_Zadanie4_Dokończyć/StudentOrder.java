@@ -1,15 +1,15 @@
-package AllExercise.ZadaniaInterfejsy.ZadaniaInterfejsy_Zadanie4_ProblemZpunktem5;
+package AllExercise.ZadaniaInterfejsy.ZadaniaInterfejsy_Zadanie4_Dokończyć;
 
 public class StudentOrder implements Order{
 
     @Override
     public int numberOfElements() {
-        return 0;
+        return 3;
     }
 
     @Override
     public double orderAmount() {
-        return 0;
+        return 1500;
     }
 
     @Override

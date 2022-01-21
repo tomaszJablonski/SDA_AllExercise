@@ -4,12 +4,12 @@ public class IntelCore implements Processor,MainBoard {
 
 
     @Override
-    public boolean ifIntel() {
+    public  boolean ifIntel() {
         return true;
     }
 
     @Override
-    public boolean ifIntelworks() {
+    public  boolean ifIntelworks() {
         return true;
     }
 }

@@ -2,25 +2,28 @@ package AllExercise.ZadaniaInterfejsy.ZadanieInterfejsy_Zadanie5;
 
 public class Computer {
 
-    private boolean powerOn;
-    private String mainBoard;
-    private String processor;
+    private Processor processor;
+    private MainBoard mainBoard;
 
-    public Computer(boolean powerOn, String mainBoard, String processor) {
-        this.powerOn = powerOn;
-        this.mainBoard = mainBoard;
+    public Computer(Processor processor, MainBoard mainBoard) {
         this.processor = processor;
+        this.mainBoard = mainBoard;
     }
 
-    private boolean ifPartsWorks(boolean mainBoard,boolean processor){
-        return true;
+     private boolean ifPartsWorks(){
+        if(processor.ifIntel() == mainBoard.ifIntelworks()){
+            return true;
+        }
+
+        return false;
+    }
+        public boolean trunOn () {
+            if (ifPartsWorks() == true) {
+                return true;
+            }
+            return false;
+        }
+
+
     }
 
-    public String powerOn(){
-        return null;
-    }
-
-
-
-
-}

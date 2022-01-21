@@ -1,4 +1,4 @@
-package AllExercise.ZadaniaInterfejsy.ZadaniaInterfejsy_Zadanie4_ProblemZpunktem5;
+package AllExercise.ZadaniaInterfejsy.ZadaniaInterfejsy_Zadanie4_Dokończyć;
 
 /*
 TODO
@@ -13,8 +13,8 @@ TODO
  ( done)
  4. Stwórz klasy PersonalOrder, StudentOrder, BulkOrder. Każda z tych klas reprezentuje inny typ zamówienia.
  done
-
  5. W klasie Store dodaj metodę, która przyjmuje ilość elementów oraz zamawiającego
+ done
  i na tej podstawie zwraca odpowiednie zamówienie. Przyjmij, że informacja
  czy zamawiający jest studentem znajduję się w klasie opisującej
  zamawiającego, a zamówienia hurtowe to zamówienia które mają więcej niż 1000 przedmiotów.
@@ -25,9 +25,13 @@ TODO
 public class Main {
     public static void main(String[] args) {
 
-        Store store = new Store(1500,0.25,0);
-        StudentOrder studentOrder = new StudentOrder();
+        PersonalOrder personalOrder = new PersonalOrder();
+        System.out.println("personalOrder.numberOfElements() = " + personalOrder.numberOfElements());
+        System.out.println("personalOrder.orderAmount() = " + personalOrder.orderAmount());
+        System.out.println("personalOrder.purchaser() = " + personalOrder.purchaser());
 
+        Store store = new Store(500,25,10);
+        System.out.println("store.howOrder(500) = " + store.howOrder(500));
 
 
     }
